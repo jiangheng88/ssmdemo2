@@ -37,6 +37,7 @@ public class CustomerController {
     public String doAddUser(Customer customer) {
         int i = customerService.insertSelective(customer);
         if (i > 0) {
+
             return "customermanage/selectCustomer";
         } else {
             return "customermanage/addCustomer";

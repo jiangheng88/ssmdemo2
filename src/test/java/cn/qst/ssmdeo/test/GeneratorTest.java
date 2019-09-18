@@ -34,6 +34,10 @@ public class GeneratorTest {
             e.printStackTrace();
         }
         */
+
+       String string = "jaingiew/hwoahgeo";
+       string = string.replaceAll("/","-");
+        System.out.println(string);
     }
 
 }

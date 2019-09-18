@@ -7,7 +7,8 @@
 
 <!-- ================springmvc配置自动扫描注解以及打开注解开关====================== -->
     <!--打开springmvc框架的默认配置，即使用注解的总开关-->
-    <mvc:annotation-driven/>
+    <!--conversion-service  设置自定义转换器的配置-->
+    <mvc:annotation-driven conversion-service="myConverter"/>
 
     <!-- SpringMVC框架使用的配置注解扫描的包范围 -->
     <context:component-scan base-package="cn.qst.ssmdemo"></context:component-scan>
@@ -32,5 +33,14 @@
     <!--加载没用功能的页面，只是存加载出来页面-->
     <mvc:view-controller path="/addCustomer" view-name="customermanage/addCustomer"></mvc:view-controller>
     <mvc:view-controller path="/select" view-name="customermanage/selectCustomer"></mvc:view-controller>
+
+    <!--*************设置类型转换器********************-->
+    <bean id="myConverter" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters">
+            <list>
+               <bean class="cn.qst.ssmdemo.converter.DateTypeConverter"></bean>
+            </list>
+        </property>
+    </bean>
 
 </beans>

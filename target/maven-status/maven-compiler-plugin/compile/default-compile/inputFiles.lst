@@ -5,6 +5,7 @@ G:\IDEAplace\ssmdemo2\src\main\java\cn\qst\ssmdemo\service\UserService.java
 G:\IDEAplace\ssmdemo2\src\main\java\cn\qst\ssmdemo\model\User.java
 G:\IDEAplace\ssmdemo2\src\main\java\cn\qst\ssmdemo\dao\BookMapper.java
 G:\IDEAplace\ssmdemo2\src\main\java\cn\qst\ssmdemo\model\Customer.java
+G:\IDEAplace\ssmdemo2\src\main\java\cn\qst\ssmdemo\converter\DateTypeConverter.java
 G:\IDEAplace\ssmdemo2\src\main\java\cn\qst\ssmdemo\service\CustomerServiceImpl.java
 G:\IDEAplace\ssmdemo2\src\main\java\cn\qst\ssmdemo\controller\CustomerController.java
 G:\IDEAplace\ssmdemo2\src\main\java\cn\qst\ssmdemo\controller\UserController.java

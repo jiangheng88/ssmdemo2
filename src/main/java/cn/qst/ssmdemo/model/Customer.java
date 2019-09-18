@@ -15,7 +15,7 @@ public class Customer {
     private String customerSex;
 
     private Integer customerAge;
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    //@DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date date;
 
     public Integer getCustomerId() {
