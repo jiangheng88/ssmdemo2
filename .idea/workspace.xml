@@ -7,7 +7,623 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a01c1d01-d4bc-4b03-9876-8999444848da" name="Default Changelist" comment="" />
+    <list default="true" id="a01c1d01-d4bc-4b03-9876-8999444848da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ssmdemo2_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ssmdemo2_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/ForwardCommons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/addCustomer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/deleteCustomer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/selectCustomer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/updateCustomer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/css/bootstrap-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/css/bootstrap-select.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/css/bootstrap-select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/bootstrap-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/bootstrap-select.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/bootstrap-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/bootstrap-select.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-am_ET.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-am_ET.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-am_ET.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-ar_AR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-ar_AR.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-ar_AR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-bg_BG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-bg_BG.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-bg_BG.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-cs_CZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-cs_CZ.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-cs_CZ.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-da_DK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-da_DK.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-da_DK.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-de_DE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-de_DE.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-de_DE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-en_US.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-en_US.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-en_US.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-es_CL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-es_CL.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-es_CL.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-es_ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-es_ES.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-es_ES.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-et_EE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-et_EE.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-et_EE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-eu.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-eu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-fa_IR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-fa_IR.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-fa_IR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-fi_FI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-fi_FI.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-fi_FI.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-fr_FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-fr_FR.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-fr_FR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-hr_HR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-hr_HR.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-hr_HR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-hu_HU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-hu_HU.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-hu_HU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-id_ID.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-id_ID.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-id_ID.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-it_IT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-it_IT.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-it_IT.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-ja_JP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-ja_JP.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-ja_JP.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-kh_KM.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-kh_KM.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-kh_KM.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-ko_KR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-ko_KR.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-ko_KR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-lt_LT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-lt_LT.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-lt_LT.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-lv_LV.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-lv_LV.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-lv_LV.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-nb_NO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-nb_NO.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-nb_NO.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-nl_NL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-nl_NL.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-nl_NL.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-pl_PL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-pl_PL.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-pl_PL.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-pt_BR.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-pt_BR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-pt_PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-pt_PT.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-pt_PT.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-ro_RO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-ro_RO.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-ro_RO.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-ru_RU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-ru_RU.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-ru_RU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-sk_SK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-sk_SK.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-sk_SK.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-sl_SI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-sl_SI.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-sl_SI.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-sv_SE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-sv_SE.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-sv_SE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-tr_TR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-tr_TR.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-tr_TR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-ua_UA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-ua_UA.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-ua_UA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-vi_VN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-vi_VN.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-vi_VN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-zh_CN.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-zh_CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-zh_TW.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/i18n/defaults-zh_TW.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/bootstrap/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/agile_board.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/badges_labels.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/basic_gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/blueimp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/chat_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/clients.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/code_editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/contacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/M663 1125q-11 -1 -15.5 -10.5t-8.5 -9.5q-5 -1 -5 5q0 12 19 15h10zM750 1111q-4 -1 -11.5 6.5t-17.5 4.5q03F7DC5A5A" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/demo/webuploader-demo.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/login.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/patterns/header-profile-skin-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/patterns/header-profile-skin-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/patterns/header-profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/patterns/shattered.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/blueimp/css/blueimp-gallery.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/blueimp/img/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/blueimp/img/error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/blueimp/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/blueimp/img/play-pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/blueimp/img/play-pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/blueimp/img/video-play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/blueimp/img/video-play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/bootstrap-table/bootstrap-table.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/chosen/chosen-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/chosen/chosen-sprite_402x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/chosen/chosen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/clockpicker/clockpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/codemirror/ambiance.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/codemirror/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/colorpicker/css/bootstrap-colorpicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/colorpicker/img/bootstrap-colorpicker/hue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/colorpicker/img/bootstrap-colorpicker/saturation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/cropper/cropper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/dataTables/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/datapicker/datepicker3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/dropzone/basic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/dropzone/dropzone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/footable/fonts/footable.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/footable/fonts/footable.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/footable/fonts/footable.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/footable/fonts/footable.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/footable/footable.core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/fullcalendar/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/fullcalendar/fullcalendar.print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/iCheck/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/iCheck/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/iCheck/green_402x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/images/sprite-skin-flat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/images/spritemap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/images/spritemap_402x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/ionRangeSlider/ion.rangeSlider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/jasny/jasny-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/jqgrid/ui.jqgrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/jsTree/32px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/jsTree/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/jsTree/throbber.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/markdown/bootstrap-markdown.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/morris/morris-0.4.3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/nouslider/jquery.nouislider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/plyr/plyr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/plyr/sprite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/simditor/simditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/steps/jquery.steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/summernote/summernote-bs3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/summernote/summernote.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/sweetalert/sweetalert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/switchery/switchery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/toastr/toastr.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/treeview/bootstrap-treeview.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/plugins/webuploader/webuploader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/css_animation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/default.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/diff.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/draggable_panels.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/empty_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/file_manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/fontawesome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/form_advanced.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/form_avatar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/form_basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/form_builder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/form_editors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/form_file_upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/form_markdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/form_simditor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/form_validate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/form_webuploader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/form_wizard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/forum_main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/glyphicons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/graph_echarts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/graph_flot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/graph_metrics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/graph_morris.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/graph_peity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/graph_rickshaw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/graph_sparkline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/grid_options.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/iconfont.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/a3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/a4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/a5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/a6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/a7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/a8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/a9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/iconfont-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/index.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/index_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/loading-upload.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/locked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/login-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/p_big1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/p_big2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/p_big3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/pay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/profile_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/profile_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/qr_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/img/wenku_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/index_v1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/index_v2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/index_v3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/index_v4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/index_v5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/invoice_print.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/contabs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/content.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/demo/bootstrap-table-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/demo/bootstrap_table_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/demo/bootstrap_table_test2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/demo/echarts-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/demo/flot-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/demo/form-advanced-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/demo/form-validate-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/demo/layer-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/demo/morris-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/demo/peity-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/demo/photos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/demo/rickshaw-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/demo/sparkline-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/demo/table_base.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/demo/treeview-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/demo/webuploader-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/hplus.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/jquery-ui-1.10.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/jquery-ui.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/beautifyhtml/beautifyhtml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/blueimp/jquery.blueimp-gallery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/bootstrap-table.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/accent-neutralise/bootstrap-table-accent-neutralise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/accent-neutralise/bootstrap-table-accent-neutralise.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/angular/bootstrap-table-angular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/angular/bootstrap-table-angular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/cookie/bootstrap-table-cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/cookie/bootstrap-table-cookie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/editable/bootstrap-table-editable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/editable/bootstrap-table-editable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/export/bootstrap-table-export.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/export/bootstrap-table-export.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/filter-control/bootstrap-table-filter-control.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/filter-control/bootstrap-table-filter-control.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/filter/bootstrap-table-filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/filter/bootstrap-table-filter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/flat-json/bootstrap-table-flat-json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/flat-json/bootstrap-table-flat-json.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/group-by-v2/bootstrap-table-group-by.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/group-by-v2/bootstrap-table-group-by.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/group-by-v2/bootstrap-table-group-by.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/group-by/bootstrap-table-group-by.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/group-by/bootstrap-table-group-by.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/group-by/bootstrap-table-group-by.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/key-events/bootstrap-table-key-events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/key-events/bootstrap-table-key-events.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/mobile/bootstrap-table-mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/mobile/bootstrap-table-mobile.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/multiple-search/bootstrap-table-multiple-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/multiple-search/bootstrap-table-multiple-search.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/multiple-sort/bootstrap-table-multiple-sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/multiple-sort/bootstrap-table-multiple-sort.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/natural-sorting/bootstrap-table-natural-sorting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/natural-sorting/bootstrap-table-natural-sorting.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/reorder-columns/bootstrap-table-reorder-columns.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/reorder-columns/bootstrap-table-reorder-columns.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/reorder-rows/bootstrap-table-reorder-rows.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/reorder-rows/bootstrap-table-reorder-rows.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/reorder-rows/bootstrap-table-reorder-rows.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/resizable/bootstrap-table-resizable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/resizable/bootstrap-table-resizable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/sticky-header/bootstrap-table-sticky-header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/sticky-header/bootstrap-table-sticky-header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/sticky-header/bootstrap-table-sticky-header.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/toolbar/bootstrap-table-toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/extensions/toolbar/bootstrap-table-toolbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/chartJs/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/chosen/chosen.jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/clockpicker/clockpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/codemirror/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/codemirror/mode/default.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/codemirror/mode/javascript/default.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/codemirror/mode/javascript/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/colorpicker/bootstrap-colorpicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/cropper/cropper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/dataTables/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/dataTables/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/datapicker/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/diff_match_patch/diff_match_patch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/dropzone/dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/easypiechart/jquery.easypiechart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/echarts/echarts-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/echarts/echarts-all.js.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/echarts/echarts-all.js.b1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/fancybox/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/fancybox/fancybox_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/fancybox/fancybox_loading_402x.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/fancybox/fancybox_overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/fancybox/fancybox_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/fancybox/fancybox_sprite_402x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/fancybox/jquery.fancybox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/fancybox/jquery.fancybox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/flot/curvedLines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/flot/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/flot/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/flot/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/flot/jquery.flot.spline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/flot/jquery.flot.symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/flot/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/footable/footable.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/fullcalendar/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/gritter/images/gritter-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/gritter/images/gritter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/gritter/images/ie-spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/gritter/jquery.gritter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/gritter/jquery.gritter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/iCheck/icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/jasny/jasny-bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/jeditable/jquery.jeditable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/jqgrid/i18n/grid.locale-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/jqgrid/jquery.jqGrid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/jquery-ui/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/jsKnob/jquery.knob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/jsTree/jstree.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/layer/extend/layer.ext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/layer/laydate/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/layer/laydate/need/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/layer/laydate/skins/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/layer/laydate/skins/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/layer/layer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/layer/layim/data/chatlog.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/layer/layim/data/friend.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/layer/layim/data/group.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/layer/layim/data/groups.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/layer/layim/layim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/layer/layim/layim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/layer/layim/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/layer/skin/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/layer/skin/layer.ext.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/layer/skin/moon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/markdown/bootstrap-markdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/markdown/bootstrap-markdown.zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/markdown/markdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/markdown/to-markdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/metisMenu/jquery.metisMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/morris/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/morris/morris.js.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/morris/raphael-2.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/nestable/jquery.nestable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/nouslider/jquery.nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/pace/pace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/peity/jquery.peity.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/plyr/plyr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/prettyfile/bootstrap-prettyfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/rickshaw/rickshaw.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/rickshaw/vendor/d3.v3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/simditor/hotkeys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/simditor/module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/simditor/simditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/simditor/uploader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/slimscroll/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/sparkline/jquery.sparkline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/staps/jquery.steps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/suggest/bootstrap-suggest.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/suggest/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/summernote/summernote-zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/summernote/summernote.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/sweetalert/sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/switchery/switchery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/toastr/toastr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/treeview/bootstrap-treeview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/validate/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/validate/messages_zh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/plugins/webuploader/webuploader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/js/welcome.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/jstree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/layer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/layerdate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/layouts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/lockscreen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/login_v2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/mail_compose.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/mail_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/mailbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/mailbox.html@msg=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/mailbox.html@user=" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/modal_window.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/nestable_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/notifications.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/pin_board.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/plugins/fullavatareditor/expressInstall.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/plugins/fullavatareditor/fullAvatarEditor.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/plugins/fullavatareditor/scripts/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/plugins/fullavatareditor/scripts/fullAvatarEditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/plugins/fullavatareditor/scripts/fullAvatarEditor.js.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/plugins/fullavatareditor/scripts/jQuery.Cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/plugins/fullavatareditor/scripts/swfobject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/plugins/fullavatareditor/scripts/swfobject.js.b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/plugins/fullavatareditor/scripts/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/plyr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/project_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/projects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/search_results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/social_feed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/spinners.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/suggest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/sweetalert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/table_basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/table_bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/table_data_tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/table_foo_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/table_jqgrid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/tabs_panels.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/teams_board.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/timeline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/timeline_v2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/toastr_notifications.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/tree_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/webim.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/hplus/widgets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/configs/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configs/springmvc-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generator-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cn/qst/ssmdeo/test/GeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/qst/ssmdeo/test/GeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssmdemo2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssmdemo2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/model/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/configs/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/configs/springmvc-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generator-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmdemo2.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/model/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/configs/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/configs/springmvc-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/generator-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/jsp/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmdemo2/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-cn.qst.ssmdeo.test.GeneratorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-cn.qst.ssmdeo.test.GeneratorTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/qst/ssmdeo/test/GeneratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cn/qst/ssmdeo/test/GeneratorTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,12 +636,12 @@
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="148">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,10 +650,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/configs/springmvc-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+            <state relative-caret-position="409">
+              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -45,91 +675,74 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/configs/spring-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1025">
-              <caret line="107" column="31" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
+            <state relative-caret-position="439">
+              <caret line="102" column="32" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/model/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding>
-                <element signature="e#1740#1760#0" expanded="true" />
-                <element signature="e#1798#1806#0" expanded="true" />
-                <element signature="e#1849#1862#0" expanded="true" />
-                <element signature="e#1905#1918#0" expanded="true" />
-                <element signature="e#1989#2005#0" expanded="true" />
-                <element signature="e#2078#2092#0" expanded="true" />
-                <element signature="e#2159#2171#0" expanded="true" />
-                <element signature="e#2241#2253#0" expanded="true" />
-                <element signature="e#2327#2347#0" expanded="true" />
-                <element signature="e#2394#2411#0" expanded="true" />
-                <element signature="e#2458#2475#0" expanded="true" />
-                <element signature="e#2523#2541#0" expanded="true" />
-                <element signature="e#2672#2706#0" expanded="true" />
-                <element signature="e#2825#2856#0" expanded="true" />
-                <element signature="e#2943#2963#0" expanded="true" />
-                <element signature="e#3069#3096#0" expanded="true" />
-                <element signature="e#3179#3196#0" expanded="true" />
-                <element signature="e#3261#3273#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/mapper/BookMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/mapper/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="21" column="97" selection-start-line="21" selection-start-column="97" selection-end-line="21" selection-end-column="97" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="325">
+              <caret line="81" column="135" selection-start-line="81" selection-start-column="135" selection-end-line="81" selection-end-column="135" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/addCustomer.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="84">
+              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/CustomerServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3875">
-              <caret line="155" column="43" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
+            <state relative-caret-position="548">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/configs/db-config.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/CustomerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="925">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,9 +753,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>content-main</find>
+      <find>gray-bg</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -151,19 +775,39 @@
         <option value="$PROJECT_DIR$/src/main/resources/configs/generator.properties" />
         <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/dao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/generator-config.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/generator-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/mapper/BookMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cn/qst/ssmdeo/test/GeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/configs/spring-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/configs/springmvc-config.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/selectUser.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/deleteUser.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateUser.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addUser.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userInfo/deleteUser.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userInfo/selectUser.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userInfo/homePage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userInfo/addUser.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/ForwardCommons.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/generator-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/mapper/BookMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/dao/CustomerMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/qst/ssmdeo/test/GeneratorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/CustomerService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/configs/springmvc-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/model/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/model/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/CustomerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/CustomerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/addCustomer.jsp" />
       </list>
     </option>
   </component>
@@ -212,155 +856,249 @@
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="ssmdemo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
-              <item name="ssmdemo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="ssmdemo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="ssmdemo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="ssmdemo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="ssmdemo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="qst" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="ssmdemo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="qst" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ssmdemo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="ssmdemo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="qst" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ssmdemo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="ssmdemo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="qst" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ssmdemo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="ssmdemo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="qst" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ssmdemo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mapper" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="ssmdemo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="qst" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ssmdemo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="ssmdemo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="qst" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ssmdemo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="ssmdemo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="ssmdemo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="configs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="ssmdemo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="ssmdemo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="WEB-INF" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="WEB-INF" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="jsp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="WEB-INF" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="jsp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="customermanage" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="qst" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="qst" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ssmdeo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="qst" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ssmdeo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568622956555" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568784031541" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ssmdemo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\IDEAplace\ssmdemo2\src\main\webapp\WEB-INF\jsp\userInfo" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.qst.ssmdemo.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\IDEAplace\ssmdemo2\src\main\webapp" />
+      <recent name="G:\IDEAplace\ssmdemo2\src\main\webapp\WEB-INF\static" />
       <recent name="G:\IDEAplace\ssmdemo2\src\main\webapp\WEB-INF" />
       <recent name="G:\IDEAplace\ssmdemo2\src\main\java\cn\qst\ssmdemo\service" />
       <recent name="G:\IDEAplace\ssmdemo2\src\main\resources" />
@@ -396,6 +1134,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="ssmdemo2:war exploded">
@@ -633,6 +1372,8 @@
       <option name="presentableId" value="Default" />
       <updated>1568601389319</updated>
       <workItem from="1568601393609" duration="14443000" />
+      <workItem from="1568708736506" duration="5877000" />
+      <workItem from="1568767699781" duration="12578000" />
     </task>
     <servers />
   </component>
@@ -646,60 +1387,117 @@
     <history-entry file="GeneratorTest_test - 2019.09.16 at 13h 26m 03s.xml">
       <configuration name="GeneratorTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GeneratorTest_test - 2019.09.18 at 12h 34m 54s.xml">
+      <configuration name="GeneratorTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeneratorTest_test - 2019.09.18 at 13h 05m 01s.xml">
+      <configuration name="GeneratorTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14443000" />
+    <option name="totallyTimeSpent" value="32898000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="JRebel" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19571045" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29490617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.55162656" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Problems" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JRebel Executor" weight="0.32956153" />
-      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32956153" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45685998" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.04249292" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.04249292" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" visible="true" weight="0.10589813" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.5495751" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Problems" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.3286119" />
+      <window_info anchor="bottom" id="JRebel Executor" order="16" sideWeight="0.49865952" weight="0.09348442" />
+      <window_info anchor="bottom" id="JRebel Console" order="17" sideWeight="0.5013405" side_tool="true" weight="0.5368272" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.08215298" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.09182306" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -707,135 +1505,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/dao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/dao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generator-config.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/configs/generator.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generator-config.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/configs/generator.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generator-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/qst/ssmdeo/test/GeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="34" column="11" selection-start-line="20" selection-start-column="8" selection-end-line="34" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1209#1210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/dao/BookMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/mapper/BookMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="93" column="9" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="97" selection-start-line="21" selection-start-column="97" selection-end-line="21" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/configs/springmvc-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/configs/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="107" column="31" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
-          <folding>
-            <element signature="e#1740#1760#0" expanded="true" />
-            <element signature="e#1798#1806#0" expanded="true" />
-            <element signature="e#1849#1862#0" expanded="true" />
-            <element signature="e#1905#1918#0" expanded="true" />
-            <element signature="e#1989#2005#0" expanded="true" />
-            <element signature="e#2078#2092#0" expanded="true" />
-            <element signature="e#2159#2171#0" expanded="true" />
-            <element signature="e#2241#2253#0" expanded="true" />
-            <element signature="e#2327#2347#0" expanded="true" />
-            <element signature="e#2394#2411#0" expanded="true" />
-            <element signature="e#2458#2475#0" expanded="true" />
-            <element signature="e#2523#2541#0" expanded="true" />
-            <element signature="e#2672#2706#0" expanded="true" />
-            <element signature="e#2825#2856#0" expanded="true" />
-            <element signature="e#2943#2963#0" expanded="true" />
-            <element signature="e#3069#3096#0" expanded="true" />
-            <element signature="e#3179#3196#0" expanded="true" />
-            <element signature="e#3261#3273#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="100">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -846,24 +1522,312 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3875">
-          <caret line="155" column="43" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/bootstrap/js/i18n/defaults-eu.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/bootstrap/bower.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/bootstrap/composer.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/bootstrap/package.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/jquery/jquery.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/hplus/js/demo/photos.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/bootstrap/js/npm.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/hplus/js/demo/photos.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="475">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/cn.qst:ssmdemo2:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>cn.qst:ssmdemo2:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">cn.qst:ssmdemo2:1.0-SNAPSHOT</node>
+            <node x="" y="">junit:junit:jar:4.12</node>
+            <node x="" y="">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:5.1.9.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:5.1.9.RELEASE/org.springframework:spring-aop:jar:5.1.9.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:5.1.9.RELEASE/org.springframework:spring-beans:jar:5.1.9.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:5.1.9.RELEASE/org.springframework:spring-context:jar:5.1.9.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:5.1.9.RELEASE/org.springframework:spring-core:jar:5.1.9.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:5.1.9.RELEASE/org.springframework:spring-core:jar:5.1.9.RELEASE/org.springframework:spring-jcl:jar:5.1.9.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:5.1.9.RELEASE/org.springframework:spring-expression:jar:5.1.9.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:5.1.9.RELEASE/org.springframework:spring-web:jar:5.1.9.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:5.1.9.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:5.1.9.RELEASE/org.springframework:spring-tx:jar:5.1.9.RELEASE</node>
+            <node x="" y="">com.alibaba:druid:jar:1.1.20</node>
+            <node x="" y="">org.mybatis:mybatis:jar:3.5.2</node>
+            <node x="" y="">org.mybatis:mybatis-spring:jar:2.0.2</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.47</node>
+            <node x="" y="">org.aspectj:aspectjweaver:jar:1.9.4</node>
+            <node x="" y="">org.mybatis.generator:mybatis-generator-core:jar:1.3.7</node>
+            <node x="" y="">javax.servlet:javax.servlet-api:jar:4.0.1</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.1" x="599.5" y="298.5" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/hplus/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="492" column="20" selection-start-line="492" selection-start-column="20" selection-end-line="492" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/deleteCustomer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/selectCustomer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/updateCustomer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="119" column="37" selection-start-line="119" selection-start-column="37" selection-end-line="119" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userInfo/homePage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/ForwardCommons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generator-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/mapper/CustomerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2175" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/dao/BookMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/mapper/BookMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1719">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/qst/ssmdeo/test/GeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/dao/CustomerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/configs/springmvc-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/configs/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="102" column="32" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/model/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="81" column="135" selection-start-line="81" selection-start-column="135" selection-end-line="81" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/CustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/addCustomer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
         </state>
       </provider>
     </entry>

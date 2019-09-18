@@ -18,7 +18,7 @@ import java.util.List;
 public class GeneratorTest {
     @Test
     public void test(){
-        /* String path =this.getClass().getClassLoader().getResource("generator-config.xml").getPath( );
+       /* String path =this.getClass().getClassLoader().getResource("generator-config.xml").getPath( );
         List<String> warnings = new ArrayList<String>();
         boolean overwrite = true;
         File configFile = new File(path);
@@ -32,7 +32,8 @@ public class GeneratorTest {
             myBatisGenerator.generate(null);
         } catch (Exception e) {
             e.printStackTrace();
-        }*/
+        }
+        */
     }
 
 }

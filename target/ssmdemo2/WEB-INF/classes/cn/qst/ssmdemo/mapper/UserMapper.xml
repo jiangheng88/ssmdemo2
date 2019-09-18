@@ -16,10 +16,8 @@
     from user
     where id = #{id,jdbcType=INTEGER}
   </select>
-
   <!--登录-->
-
-  <select id="dologin" resultType="cn.qst.ssmdemo.model.User" parameterType="cn.qst.ssmdemo.model.User">
+  <select id="dologin" parameterType="cn.qst.ssmdemo.model.User" resultType="cn.qst.ssmdemo.model.User">
     select  <include refid="Base_Column_List" />
     from user
     where username = #{username} and userpass = #{userpass}

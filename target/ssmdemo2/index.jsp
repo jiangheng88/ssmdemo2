@@ -1,13 +1,48 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Title</title>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <style rel="stylesheet">
+        #maindiv{
+            margin: 200px auto;
+            width: 40%;
+        }
+    </style>
+    <!--引入bootstrap的css文件-->
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="${pageContext.request.contextPath}/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--引入jquery，注意：jquery要在js文件之前引入，因为bootstrap使用了jquery框架-->
+    <script type="text/javascript" src="${pageContext.request.contextPath}/static/jQuery/jquery.js"></script>
+    <!--引入bootstrap的js文件-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>-->
+    <script src="${pageContext.request.contextPath}/static/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-<form action="${pageContext.request.contextPath}/login" method="post">
-    <input type="text" name="username">
-    <input type="password" name="userpass">
-    <input type="submit" value="提交">
-</form>
+<div id="maindiv">
+    <form class="form-horizontal" action="${pageContext.request.contextPath}/login" method="post">
+        <div class="form-group">
+            <label class="col-sm-2 control-label">用户名</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="userName" name="username" placeholder="请输入用户名">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">密码</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="userPsw" name="userpass" placeholder="Password">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-4">
+                <button type="submit" class="btn btn-default">登录</button>
+            </div>
+            <div class="col-sm-offset-2 col-sm-4">
+                <button type="reset" class="btn btn-default">重置</button>
+            </div>
+        </div>
+    </form>
+</div>
 </body>
 </html>

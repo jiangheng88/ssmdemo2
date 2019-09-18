@@ -1,6 +1,7 @@
 package cn.qst.ssmdemo.dao;
 
 import cn.qst.ssmdemo.model.User;
+import sun.rmi.server.UnicastServerRef;
 
 public interface UserMapper {
     int deleteByPrimaryKey(Integer id);
@@ -14,6 +15,8 @@ public interface UserMapper {
     int updateByPrimaryKeySelective(User record);
 
     int updateByPrimaryKey(User record);
+
     /*登录的方法*/
+
     public User dologin(User user);
 }

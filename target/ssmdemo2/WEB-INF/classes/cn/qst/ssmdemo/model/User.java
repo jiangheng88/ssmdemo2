@@ -40,4 +40,17 @@ public class User {
     public void setBookid(Integer bookid) {
         this.bookid = bookid;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", userpass='" + userpass + '\'' +
+                ", bookid=" + bookid +
+                '}';
+    }
+
+    public User() {
+    }
 }
