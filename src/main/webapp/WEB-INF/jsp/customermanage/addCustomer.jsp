@@ -43,7 +43,7 @@
 
             <label class="col-sm-2 control-label">性别</label>
             <div class="col-sm-4">
-                <input type="text" class="form-control" id="customerSex" name="customerSex" placeholder="请输入地址">
+                <input type="text" class="form-control" id="customerSex" name="customerSex" placeholder="请输入性别">
             </div>
         </div>
         <div class="form-group">
