@@ -5,6 +5,7 @@ import cn.qst.ssmdemo.model.Customer;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * @author jiangheng
@@ -42,6 +43,12 @@ public class CustomerServiceImpl implements CustomerService{
 
     @Override
     public int updateByPrimaryKey(Customer record) {
+
         return customerMapper.updateByPrimaryKey(record);
+    }
+
+    @Override
+    public List<Customer> selectAllCustomer() {
+        return customerMapper.selectAllCustomer();
     }
 }

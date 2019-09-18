@@ -2,6 +2,8 @@ package cn.qst.ssmdemo.service;
 
 import cn.qst.ssmdemo.model.Customer;
 
+import java.util.List;
+
 public interface CustomerService {
     int deleteByPrimaryKey(Integer customerId);
 
@@ -14,4 +16,7 @@ public interface CustomerService {
     int updateByPrimaryKeySelective(Customer record);
 
     int updateByPrimaryKey(Customer record);
+    /*查询所用的用户*/
+
+    public List<Customer> selectAllCustomer();
 }

@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-查找用户的页面
+${customer}
 </body>
 </html>
