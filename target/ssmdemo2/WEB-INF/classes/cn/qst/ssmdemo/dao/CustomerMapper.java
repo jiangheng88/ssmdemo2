@@ -1,6 +1,7 @@
 package cn.qst.ssmdemo.dao;
 
 import cn.qst.ssmdemo.model.Customer;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -20,6 +21,8 @@ public interface CustomerMapper {
     /*查询所用的用户*/
 
     public List<Customer> selectAllCustomer();
+
+
 
 
 }

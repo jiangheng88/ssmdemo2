@@ -1,6 +1,7 @@
 package cn.qst.ssmdemo.model;
 
 import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.web.multipart.MultipartFile;
 import sun.awt.SunHints;
 
 import java.util.Date;
@@ -17,6 +18,11 @@ public class Customer {
     private Integer customerAge;
     //@DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date date;
+
+   private MultipartFile multipartFile;
+    private String imgPath;
+
+
 
     public Integer getCustomerId() {
         return customerId;
@@ -66,6 +72,31 @@ public class Customer {
         this.date = date;
     }
 
+    public MultipartFile getMultipartFile() {
+        return multipartFile;
+    }
+
+    public void setMultipartFile(MultipartFile multipartFile) {
+        this.multipartFile = multipartFile;
+    }
+
+
+/* public MultipartFile getMultipartFile() {
+        return multipartFile;
+    }
+
+    public void setMultipartFile(MultipartFile multipartFile) {
+        this.multipartFile = multipartFile;
+    }*/
+
+    public String getImgPath() {
+        return imgPath;
+    }
+
+    public void setImgPath(String imgPath) {
+        this.imgPath = imgPath;
+    }
+
     @Override
     public String toString() {
         return "Customer{" +
@@ -75,6 +106,8 @@ public class Customer {
                 ", customerSex='" + customerSex + '\'' +
                 ", customerAge=" + customerAge +
                 ", date=" + date +
+                ", multipartFile=" +
+                ", imgPath='" + imgPath + '\'' +
                 '}';
     }
 

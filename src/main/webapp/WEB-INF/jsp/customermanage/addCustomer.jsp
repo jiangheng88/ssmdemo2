@@ -21,7 +21,8 @@
 </head>
 <body>
 <div id="maindiv">
-    <form class="form-horizontal" action="${pageContext.request.contextPath}/doAddCustomer" method="post">
+    <form class="form-horizontal" action="${pageContext.request.contextPath}/doAddCustomer"
+          method="post" enctype="multipart/form-data">
 
         <div class="form-group">
             <label class="col-sm-2 control-label">姓名</label>
@@ -50,6 +51,10 @@
             <label class="col-sm-2 control-label">注册日期</label>
             <div class="col-sm-4">
                 <input type="date" class="form-control" id="userregdate" name="date" placeholder="请选择日期">
+            </div>
+            <label class="col-sm-2 control-label">上传头像</label>
+            <div class="col-sm-4">
+                <input type="file" class="form-control" id="multipartFile" name="multipartFile" placeholder="">
             </div>
         </div>
         <div class="form-group">
