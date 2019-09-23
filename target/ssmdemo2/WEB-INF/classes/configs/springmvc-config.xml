@@ -5,13 +5,34 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
 
-<!-- ================springmvc配置自动扫描注解以及打开注解开关====================== -->
+    <!-- ================springmvc配置自动扫描注解以及打开注解开关====================== -->
     <!--打开springmvc框架的默认配置，即使用注解的总开关-->
     <!--conversion-service  设置自定义转换器的配置-->
-    <mvc:annotation-driven conversion-service="myConverter"/>
-
+    <mvc:annotation-driven conversion-service="myConverter">
+        <!--将返回的结果集转化成json类型的样式输出到前端-->
+        <mvc:message-converters register-defaults="true">
+            <!--解决json输出的前端的乱码问题-->
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                <constructor-arg value="UTF-8"></constructor-arg>
+            </bean>
+            <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+                <property name="objectMapper">
+                   <!-- 设置日期的格式化-->
+                    <bean class="com.fasterxml.jackson.databind.ObjectMapper">
+                        <property name="dateFormat">
+                            <bean class="java.text.SimpleDateFormat">
+                                <constructor-arg type="java.lang.String"
+                                                 value="yyyy-MM-dd HH:mm:ss"/>
+                            </bean>
+                        </property>
+                    </bean>
+                </property>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
     <!-- SpringMVC框架使用的配置注解扫描的包范围 -->
     <context:component-scan base-package="cn.qst.ssmdemo"></context:component-scan>
+
     <!--==================== 配置springmvc框架视图解析格式 ===========================-->
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -27,7 +48,7 @@
         扩展一下：如果这样子的话，建议 映射的方法就不要使用 static 作为action映射的路径名
     -->
     <mvc:resources mapping="/static/**" location="/static/"></mvc:resources>
-
+    <mvc:resources mapping="/uploadfiles/**" location="/uploadfiles/"></mvc:resources>
     <!--加载没用功能的页面，只是存加载出来页面-->
     <mvc:view-controller path="/addCustomer" view-name="customermanage/addCustomer"></mvc:view-controller>
     <mvc:view-controller path="/select" view-name="customermanage/selectCustomer"></mvc:view-controller>
@@ -35,7 +56,7 @@
     <bean id="myConverter" class="org.springframework.context.support.ConversionServiceFactoryBean">
         <property name="converters">
             <list>
-               <bean class="cn.qst.ssmdemo.converter.DateTypeConverter"></bean>
+                <bean class="cn.qst.ssmdemo.converter.DateTypeConverter"></bean>
             </list>
         </property>
     </bean>
@@ -50,5 +71,6 @@
         <property name="defaultEncoding">
             <value>UTF-8</value>
         </property>
+
     </bean>
 </beans>

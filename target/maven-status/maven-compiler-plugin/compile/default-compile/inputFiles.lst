@@ -2,7 +2,10 @@ G:\IDEAplace\ssmdemo2\src\main\java\cn\qst\ssmdemo\controller\LoginController.ja
 G:\IDEAplace\ssmdemo2\src\main\java\cn\qst\ssmdemo\model\Book.java
 G:\IDEAplace\ssmdemo2\src\main\java\cn\qst\ssmdemo\controller\ForwardCommons.java
 G:\IDEAplace\ssmdemo2\src\main\java\cn\qst\ssmdemo\service\UserService.java
+G:\IDEAplace\ssmdemo2\src\main\java\cn\qst\ssmdemo\utils\MyUtils.java
 G:\IDEAplace\ssmdemo2\src\main\java\cn\qst\ssmdemo\model\User.java
+G:\IDEAplace\ssmdemo2\src\main\java\cn\qst\ssmdemo\controller\JsonController.java
+G:\IDEAplace\ssmdemo2\src\main\java\cn\qst\ssmdemo\controller\AjaxController.java
 G:\IDEAplace\ssmdemo2\src\main\java\cn\qst\ssmdemo\dao\BookMapper.java
 G:\IDEAplace\ssmdemo2\src\main\java\cn\qst\ssmdemo\model\Customer.java
 G:\IDEAplace\ssmdemo2\src\main\java\cn\qst\ssmdemo\converter\DateTypeConverter.java

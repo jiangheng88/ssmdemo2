@@ -22,7 +22,8 @@ public interface CustomerMapper {
 
     public List<Customer> selectAllCustomer();
 
+    /*模糊查询*/
 
-
+    public List<Customer> listCustomerByInfo(Customer customer);
 
 }

@@ -54,7 +54,7 @@
             </div>
             <label class="col-sm-2 control-label">上传头像</label>
             <div class="col-sm-4">
-                <input type="file" class="form-control" id="multipartFile" name="multipartFile" placeholder="">
+                <input type="file" class="form-control" id="multipartFile" name="file_imgPath" placeholder="">
             </div>
         </div>
         <div class="form-group">
@@ -63,6 +63,7 @@
             </div>
         </div>
     </form>
+
 </div>
 </body>
 </html>

@@ -82,7 +82,17 @@
                             <a class="J_menuItem" target="iframe0" href="${pageContext.request.contextPath}/forward?page=customermanage/deleteCustomer">删除用户</a>
                         </li>
                         <li>
-                            <a href="index_v5.html" target="iframe0" target="_blank">主页示例五</a>
+                            <a class="J_menuItem" href="${pageContext.request.contextPath}/forward?page=ajax/ajaxbyjsdemo" target="iframe0">ajax演示</a>
+                        </li>
+                        <li>
+                            <a class="J_menuItem" href="${pageContext.request.contextPath}/forward?page=ajax/ajaxdemo" target="iframe0">ajax演示2</a>
+                        </li>
+                        <li>
+                            <a class="J_menuItem" href="${pageContext.request.contextPath}/forward?page=ajax/ajaxByJquery" target="iframe0">jquery的ajax</a>
+                        </li>
+
+                        <li>
+                            <a class="J_menuItem" href="${pageContext.request.contextPath}/forward?page=ajax/doajaxquery" target="iframe0">ajax的查询</a>
                         </li>
                     </ul>
 

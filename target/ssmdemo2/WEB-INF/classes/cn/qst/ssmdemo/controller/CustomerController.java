@@ -1,16 +1,21 @@
 package cn.qst.ssmdemo.controller;
 
 import cn.qst.ssmdemo.model.Customer;
+
 import cn.qst.ssmdemo.model.User;
 import cn.qst.ssmdemo.service.CustomerService;
-import com.alibaba.druid.pool.vendor.SybaseExceptionSorter;
+
+import cn.qst.ssmdemo.utils.MyUtils;
+import com.github.pagehelper.PageInfo;
 import org.apache.commons.beanutils.BeanUtils;
+import org.apache.commons.collections.bag.SynchronizedSortedBag;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
+
 
 import javax.annotation.Resource;
 import java.io.File;
@@ -33,7 +38,8 @@ public class CustomerController {
     }
 
     /**
-     * 添加用户的方法，含有上传文件部分,这是第一种方法，但是这个方法没有下面个这个方法好
+     * 添加用户的方法，含有上传文件部分,这个方法是吧文件流当做实体类的属性，直接从实体类中获取文件流，
+     * 但是前段页面中的name属性就的和属性名一致
      *
      * @param customer
      * @return
@@ -80,76 +86,33 @@ public class CustomerController {
     }
 
 
-
     @RequestMapping("/doselectCustomer")
-    public String doSelectUser(Model mdoel) {
-        List<Customer> customers = customerService.selectAllCustomer();
-        mdoel.addAttribute("customer", customers);
-        System.out.println("查询到的所用用户是：" + customers);
+    public String doSelectUser(Model model, Integer pageNum, Integer pageSize) {
+        if (pageNum == null || pageNum == 0)
+            pageNum = 1;
+        if (pageSize == null || pageSize == 0)
+            pageSize = 6;
+        PageInfo<Customer> customersbyPage = customerService.selectByCustomer(pageNum, pageSize);
+        model.addAttribute("customersbyPage", customersbyPage);
         return "customermanage/selectCustomer";
     }
 
     /**
-     * 上传文件到本地磁盘，数据库中只保存文件的访问路径
-     * @param customer
-     * @param multipartFile
+     * 上传文件到本地磁盘，数据库中只保存文件的访问路径，这个方法更安全
+     *
+     * @param customer      客戶端要添加的用戶
+     * @param multipartFile //客户端传过来的文件流
      * @return
      */
     @RequestMapping("/doAddCustomer")
-    public String insertCustomer(Customer customer, @RequestParam("multipartFile") MultipartFile multipartFile) {
-
-        // 将文件对象 multipartFile中的文件流上传到服务器
-        // 获取文件的服务器的保存路径
-        System.out.println("basepath:" + System.getProperty("server.basePath"));
-        // 当前项目在web服务器上的部署的绝对路径
-        String serverBasePath = System.getProperty("server.basePath");
-        // 设置服务器的保存文件的路径名
-        String serverFileSavePath = "uploadfiles/userimgfiles/";
-        // 完整的服务器保存路径为 serverBasePath+ serverFileSavePath
-        String serverSavePath = serverBasePath + serverFileSavePath;
-        // 验证服务器是否已经创建了该目录
-        File fileSave = new File(serverSavePath);
-        // 判断保存路径文件对象是否存在
-        if (!fileSave.exists()) {
-            // 创建该目录
-            fileSave.mkdirs();
-        }
-        // 文件需要在服务器上进行重命名，然后进行保存
-        // 命名规则： 前缀+系统时间毫秒数+文件后缀
-        // 获取文件类型
-        String fileContentType = multipartFile.getContentType();
-        // 获取文件后缀
-        String fileType = fileContentType.substring(fileContentType.indexOf("/") + 1);
-        // 文件名前缀
-        String fileNamePrefix = "userimg";
-        // 生成新的文件名
-        String fileNewName = fileNamePrefix + System.currentTimeMillis() + "." + fileType;
-        System.out.println("新文件名：" + fileNewName);
-        // 将文件流写出到服务器保存路径
-        try {
-            multipartFile.transferTo(new File(serverSavePath + fileNewName));
-        } catch (IOException e) {
-            System.out.println("文件上传异常：" + e.getMessage());
-            e.printStackTrace();
-        }
-        // 需要保存的文件的访问路径
-        String fileRelativePath = serverFileSavePath + fileNewName;
-        System.out.println("文件的访问路径：" + fileRelativePath);
-        // 将文件对象的访问路径映射给实体类对象的成员属性上
-        customer.setImgPath(fileRelativePath);
-        // 使用反射，将设置属性的方法具有通用性
-        // 提取需要保存的属性名
-        String propertyName = multipartFile.getName().replace("file_", "");
-        try {
-            BeanUtils.setProperty(customer, propertyName, fileRelativePath);
-        } catch (Exception e) {
-            System.out.println("文件上传异常：" + e.getMessage());
-            e.printStackTrace();
-        }
+    public String insertCustomer(Customer customer, @RequestParam("file_imgPath") MultipartFile multipartFile) {
+        //调用封装好的上传文件的静态方法
+        MyUtils.singleFileUpload(multipartFile, customer, "uploadfiles/userimgfiles/", "userimg");
         // 调用Service层进行用户信息数据保存和修改操作
+        System.out.println(customer.getImgPath());
         int i = customerService.insertSelective(customer);
         // 根据操作结果进行视图转发处理
-        return "customermanage/selectCustomer";
+        return "redirect:/doselectCustomer";
 
     }
 }

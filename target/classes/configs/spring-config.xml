@@ -72,6 +72,7 @@
         <!-- 实例化sqlSessionFactory时需要使用上述配置好的id=dataSource的数据源以及SQL映射文件 -->
         <!--依赖注入了数据源 DataSource的实例对象-->
         <property name="dataSource" ref="dataSource"></property>
+        <property name="configLocation" value="classpath:configs/mybatis-config.xml"></property>
 
         <!-- 在创建mybatis 的 sqlsessionfactory时，加载mybatis的主配置文件 -->
 
@@ -83,6 +84,8 @@
         <!-- 配置mybatis的别名的处理：采用more能处理方式：实体类的别名，默认使用该实体类首字母小写的名字作为别名或给类名都可以。 例如：com.yuw.bean.AdminBean类的别名为adminBean -->
         <!-- typeAliasesPackage该配置表示，将包org.lanqiao.tjut.bean下所有的实体类，采用默认别名的处理方式进行处理 -->
         <property name="typeAliasesPackage" value="cn.qst.ssmdemo.model"></property>
+
+
 
         <!-- 加载mybatis其他的属性参数配置信息[mybatis配置文件中的settings节点中的属性值] -->
         <property name="configurationProperties">
@@ -111,6 +114,8 @@
                 <prop key="defaultStatementTimeout">25000</prop>
             </props>
         </property>
+
+
     </bean>
 
     <!-- 配置扫描器：扫面指定包路径下的xml文档和mapper接口对象，进行spring bean管理
