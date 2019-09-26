@@ -27,6 +27,16 @@ public class CustomerServiceImpl implements CustomerService{
         return customerMapper.listCustomerByInfo(customer);
     }
 
+    /**
+     * 逻辑删除
+     * @param customerId
+     * @return
+     */
+    @Override
+    public int deleteCustomerByLogic(Integer customerId) {
+        return customerMapper.deleteCustomerByLogic(customerId);
+    }
+
     @Override
     public int deleteByPrimaryKey(Integer customerId) {
         return customerMapper.deleteByPrimaryKey(customerId);

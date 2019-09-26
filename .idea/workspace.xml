@@ -7,41 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a01c1d01-d4bc-4b03-9876-8999444848da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/AjaxController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/JsonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/utils/MyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/configs/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax/ajaxByJquery.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax/ajaxbyjsdemo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax/ajaxdemo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax/doajaxquery.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ssmdemo2_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ssmdemo2_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/JsonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/JsonController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/dao/CustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/dao/CustomerMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/mapper/CustomerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/mapper/CustomerMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/model/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/CustomerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/configs/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configs/spring-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/configs/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configs/springmvc-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/addCustomer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/addCustomer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/deleteCustomer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/deleteCustomer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/selectCustomer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/selectCustomer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssmdemo2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssmdemo2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax/ajaxByJquery.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax/ajaxByJquery.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax/doajaxquery.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax/doajaxquery.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/updateCustomer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/updateCustomer.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/controller/CustomerController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/dao/CustomerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/dao/CustomerMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/dao/CustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/dao/CustomerMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/mapper/CustomerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/mapper/CustomerMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/model/Customer.class" afterDir="false" />
@@ -50,14 +30,10 @@
       <change beforePath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/service/CustomerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/service/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/service/CustomerServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/service/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/configs/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/configs/spring-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/configs/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/configs/springmvc-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo2.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/controller/CustomerController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/dao/CustomerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/dao/CustomerMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/dao/CustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/dao/CustomerMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/mapper/CustomerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/mapper/CustomerMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/model/Customer.class" afterDir="false" />
@@ -66,14 +42,8 @@
       <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/service/CustomerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/service/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/service/CustomerServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/cn/qst/ssmdemo/service/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/configs/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/configs/spring-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/configs/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/classes/configs/springmvc-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/jsp/customermanage/addCustomer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/jsp/customermanage/addCustomer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/jsp/customermanage/deleteCustomer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/jsp/customermanage/deleteCustomer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/jsp/customermanage/selectCustomer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/jsp/customermanage/selectCustomer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/jsp/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-cn.qst.ssmdeo.test.GeneratorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-cn.qst.ssmdeo.test.GeneratorTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/cn.qst.ssmdeo.test.GeneratorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/cn.qst.ssmdeo.test.GeneratorTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/jsp/customermanage/updateCustomer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssmdemo2/WEB-INF/jsp/customermanage/updateCustomer.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/JsonController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="822">
-              <caret line="82" column="67" selection-start-line="82" selection-start-column="67" selection-end-line="82" selection-end-column="67" />
+            <state relative-caret-position="250">
+              <caret line="91" selection-start-line="91" selection-end-line="92" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,43 +71,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax/doajaxquery.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/CustomerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#td#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/mapper/CustomerMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/dao/CustomerMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/CustomerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="28" column="64" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
+            <state relative-caret-position="498">
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,22 +85,54 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/CustomerServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+            <state relative-caret-position="600">
+              <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#679#680#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/addCustomer.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax/doajaxquery.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="56" column="85" selection-start-line="56" selection-start-column="85" selection-end-line="56" selection-end-column="85" />
+            <state relative-caret-position="299">
+              <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="e#94#100#0" expanded="true" />
+                <element signature="e#100#106#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/configs/spring-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1750">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/configs/springmvc-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1875">
+              <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/updateCustomer.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1875">
+              <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -171,36 +140,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/model/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="1450">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1570#1571#0" expanded="true" />
-                <element signature="e#1606#1607#0" expanded="true" />
-                <element signature="e#1671#1672#0" expanded="true" />
-                <element signature="e#1721#1722#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/configs/springmvc-config.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/mapper/CustomerMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/CustomerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -224,6 +181,7 @@
       <find>gray-bg</find>
       <find>iframe</find>
       <find>hashcode</find>
+      <find>eachValue</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -238,8 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/generator-config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/selectUser.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/deleteUser.jsp" />
@@ -262,7 +218,6 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/converter/DateTypeConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/model/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/utils/MyUtils.java" />
         <option value="$PROJECT_DIR$/src/main/resources/configs/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/configs/spring-config.xml" />
@@ -278,17 +233,20 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax/ajaxdemo.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax/demo.html" />
         <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/JsoncONTROLLER.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax/ajaxByJquery.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/configs/springmvc-config.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/addCustomer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/CustomerController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax/ajaxByJquery.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/model/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/dao/CustomerMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/CustomerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/CustomerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/JsonController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/CustomerController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/configs/springmvc-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/updateCustomer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax/doajaxquery.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/JsonController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/mapper/CustomerMapper.xml" />
+        <option value="$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/mapper/CustomerMapper.xml" />
       </list>
     </option>
   </component>
@@ -348,6 +306,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -517,6 +486,40 @@
               <item name="ssmdemo2" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmdemo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="qst" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmdemo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="qst" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmdemo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="qst" type="462c0819:PsiDirectoryNode" />
+              <item name="ssmdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmdemo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="ssmdemo2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -538,17 +541,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="ssmdemo2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="ssmdemo2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -556,8 +548,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569239543057" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../niuke" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569421330445" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -856,7 +848,11 @@
       <workItem from="1568968748904" duration="12031000" />
       <workItem from="1569033744521" duration="26110000" />
       <workItem from="1569138418958" duration="4389000" />
-      <workItem from="1569201022989" duration="16019000" />
+      <workItem from="1569201022989" duration="18632000" />
+      <workItem from="1569286680657" duration="7048000" />
+      <workItem from="1569373158816" duration="12067000" />
+      <workItem from="1569457376930" duration="4860000" />
+      <workItem from="1569481942172" duration="5086000" />
     </task>
     <task id="LOCAL-00001" summary="提交修改">
       <created>1568792782493</created>
@@ -879,7 +875,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568895862495</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加了ajax的查询和使用了前端的分页">
+      <created>1569239643878</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569239643878</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -909,7 +912,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129191000" />
+    <option name="totallyTimeSpent" value="160865000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -924,7 +927,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27882037" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25603217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -936,7 +939,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.29461756" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.04249292" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.9575071" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -962,45 +965,6 @@
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Maven" order="8" visible="true" weight="0.09584451" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08042896" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="JRebel" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40651557" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5892351" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.5495751" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Problems" order="12" weight="0.3286119" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="JRebel Executor" order="16" sideWeight="0.49865952" visible="true" weight="0.20679887" />
-      <window_info anchor="bottom" id="JRebel Console" order="17" sideWeight="0.5013405" side_tool="true" weight="0.5368272" />
-      <window_info anchor="bottom" id="Messages" order="18" weight="0.26203966" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.113270774" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1049,35 +1013,14 @@
     <MESSAGE value="提交修改" />
     <MESSAGE value="添加了自定义的类型转换器" />
     <MESSAGE value="添加了上传文件，这种上传问件的方法更安全，以后推荐用这种" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了上传文件，这种上传问件的方法更安全，以后推荐用这种" />
+    <MESSAGE value="添加了ajax的查询和使用了前端的分页" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了ajax的查询和使用了前端的分页" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userInfo/homePage.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generator-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1719">
-          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/model/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -1136,16 +1079,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/dao/BookMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1192,13 +1125,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1900">
           <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/configs/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1900">
-          <caret line="76" column="64" selection-start-line="76" selection-start-column="64" selection-end-line="76" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -1332,16 +1258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/AjaxController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.9.3/jackson-databind-2.9.9.3.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1363,34 +1279,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax/ajaxByJquery.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
-          <caret line="83" column="11" selection-start-line="71" selection-start-column="5" selection-end-line="83" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="94" column="146" selection-start-line="94" selection-start-column="146" selection-end-line="94" selection-end-column="146" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/utils/MyUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1401,41 +1289,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/CustomerController.java">
+    <entry file="file://$PROJECT_DIR$/target/ssmdemo2/uploadfiles/userimgfiles/userimg1569223802605.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/ssmdemo2/uploadfiles/userimgfiles/userimg1569224391706.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        <state relative-caret-position="25">
+          <caret line="926" column="10" selection-start-line="926" selection-start-column="10" selection-end-line="926" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/addCustomer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="67" column="7" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/AjaxController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/addCustomer.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax/ajaxByJquery.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="56" column="85" selection-start-line="56" selection-start-column="85" selection-end-line="56" selection-end-column="85" />
+        <state relative-caret-position="675">
+          <caret line="73" column="22" lean-forward="true" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/model/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="850">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-            <element signature="e#1606#1607#0" expanded="true" />
-            <element signature="e#1671#1672#0" expanded="true" />
-            <element signature="e#1721#1722#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/dao/CustomerMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        <state relative-caret-position="725">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1444,8 +1362,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="28" column="64" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
+        <state relative-caret-position="675">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1454,47 +1372,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/service/CustomerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+        <state relative-caret-position="600">
+          <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/configs/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1750">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/configs/springmvc-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1875">
+          <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1450">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/customermanage/updateCustomer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1875">
+          <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax/doajaxquery.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#td#0;n#!!top" expanded="true" />
+            <element signature="e#94#100#0" expanded="true" />
+            <element signature="e#100#106#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/controller/JsonController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="822">
-          <caret line="82" column="67" selection-start-line="82" selection-start-column="67" selection-end-line="82" selection-end-column="67" />
+        <state relative-caret-position="250">
+          <caret line="91" selection-start-line="91" selection-end-line="92" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax/doajaxquery.jsp">
+    <entry file="file://$PROJECT_DIR$/target/classes/cn/qst/ssmdemo/mapper/CustomerMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#td#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="825">
+          <caret line="79" column="17" lean-forward="true" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/qst/ssmdemo/mapper/CustomerMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/configs/springmvc-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        <state>
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
         </state>
       </provider>
     </entry>

@@ -26,4 +26,8 @@ public interface CustomerMapper {
 
     public List<Customer> listCustomerByInfo(Customer customer);
 
+    /*逻辑删除*/
+    public int deleteCustomerByLogic(@Param("customerId") Integer customerId);
+
+
 }

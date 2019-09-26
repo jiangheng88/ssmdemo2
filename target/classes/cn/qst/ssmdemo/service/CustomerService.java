@@ -3,6 +3,7 @@ package cn.qst.ssmdemo.service;
 import cn.qst.ssmdemo.model.Customer;
 import cn.qst.ssmdemo.model.User;
 import com.github.pagehelper.PageInfo;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -27,4 +28,7 @@ public interface CustomerService {
     /*模糊查询*/
 
     public List<Customer> listCustomerByInfo(Customer customer);
+
+    /*逻辑删除*/
+    public int deleteCustomerByLogic(Integer customerId);
 }

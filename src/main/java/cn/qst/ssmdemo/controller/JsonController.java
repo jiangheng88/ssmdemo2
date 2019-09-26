@@ -7,8 +7,10 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import sun.misc.Request;
 
 import javax.annotation.Resource;
 import java.util.Date;
@@ -83,5 +85,24 @@ public class JsonController {
         List<Customer> list = customerService.listCustomerByInfo(customer);
         System.out.println(list);
         return list;
+    }
+    @ResponseBody
+    @RequestMapping(value = "/updateCustomer", method = RequestMethod.POST)
+    public String updateCustomerById(Customer customer) {
+        int i = customerService.updateByPrimaryKeySelective(customer);
+        if(i>0){
+            return "修改成功";
+        }else{
+            return "修改失败，请重新修改";
+        }
+
+    }
+
+    @ResponseBody
+    @RequestMapping("/deleteCustomerbyAjax")
+    public int deleteCustomer(int customerId) {
+        System.out.println("执行到了后台");
+        int i = customerService.deleteCustomerByLogic(customerId);
+        return i;
     }
 }

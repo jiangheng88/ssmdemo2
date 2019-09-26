@@ -18,8 +18,17 @@ public class Customer {
     private Integer customerAge;
     //@DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date date;
+    private Integer isDelete;
 
-   private MultipartFile multipartFile;
+    public Integer getIsDelete() {
+        return isDelete;
+    }
+
+    public void setIsDelete(Integer isDelete) {
+        this.isDelete = isDelete;
+    }
+
+    private MultipartFile multipartFile;
     private String imgPath;
 
 
@@ -97,7 +106,8 @@ public class Customer {
                 ", customerSex='" + customerSex + '\'' +
                 ", customerAge=" + customerAge +
                 ", date=" + date +
-                ", multipartFile=" +
+                ", isDelete=" + isDelete +
+                ", multipartFile=" + multipartFile +
                 ", imgPath='" + imgPath + '\'' +
                 '}';
     }

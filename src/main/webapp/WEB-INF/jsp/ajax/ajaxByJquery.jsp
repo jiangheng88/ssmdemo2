@@ -66,22 +66,22 @@
                 }
                 });
         }*/
+        /* function register(){
 
+                        $("#tip").load(
+                            "register5",
+                            "phone="+$phone,
+                            function(responseTxt,statusTxt,xhr){
+                            if(statusTxt=="success")
+                                alert("外部内容加载成功!");
+                            if(statusTxt=="error")
+                                alert("Error: "+xhr.status+": "+xhr.statusText);
+                        });
+
+                }*/
        /*ajax的load方法*/
 
-     /* function register(){
 
-                $("#tip").load(
-                    "register5",
-                    "phone="+$phone,
-                    function(responseTxt,statusTxt,xhr){
-                    if(statusTxt=="success")
-                        alert("外部内容加载成功!");
-                    if(statusTxt=="error")
-                        alert("Error: "+xhr.status+": "+xhr.statusText);
-                });
-
-        }*/
 
        /*ajax的getJSON方法*/
 
