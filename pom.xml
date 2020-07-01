@@ -35,7 +35,7 @@
         <!--mybatis-generator的版本-->
         <generator.version>1.3.7</generator.version>
         <!--log4j2的版本号-->
-        <log4j2.version>2.12.1</log4j2.version>
+        <log4j2.version>2.13.2</log4j2.version>
         <!--加载文件的版本-->
         <fileupload.version>1.3.3</fileupload.version>
         <!--分页插件的版本-->
